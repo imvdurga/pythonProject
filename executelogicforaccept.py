@@ -13,6 +13,7 @@ for row in range(1,10):
     if sheet.cell(row,1).value == None:
         print("loop is empty")
         break
+
     else:
         if sheet.cell(row,1).value in UseCase:
             print("Use Case Is Correct " +sheet.cell(row,1).value)
