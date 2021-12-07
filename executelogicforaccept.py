@@ -36,7 +36,6 @@ if Execution in "Yes":
     driver.find_element_by_xpath(
         "//div[@class='_8iep _8icy _9ahz _9ah-']/div[1]/form/div[2]/button").click()
     time.sleep(5)
-    driver.close()
 else:
     print(Execution)
-
+driver.close()
